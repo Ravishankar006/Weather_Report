@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color:none ;
+    background-image: url('image/pexels-jplenio-1118873.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .temp {
+    font-size: 3rem;
+  }
+  
+  .location {
+    font-size: 2rem;
+  }
+  
+  .dateandtime,
+  .condition {
+    font-size: 1.2rem;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .search_area {
+    padding: 10px;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .search_button {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  
