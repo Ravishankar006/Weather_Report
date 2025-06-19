@@ -6,7 +6,6 @@ const form = document.querySelector('.form');
 const search_f = document.querySelector('.search_area');
 
 
-
 form.addEventListener('submit', Searchfunction)
 
 
